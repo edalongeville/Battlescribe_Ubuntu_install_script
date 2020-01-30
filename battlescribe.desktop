@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Battlescribe
+Comment=A fast and powerful army list creator for tabletop wargamers
+Type=Application
+Categories=Game
+Icon=/usr/share/icons/hicolor/64x64/apps/battlescribe.png
+Terminal=false
+TryExec=/usr/bin/battlescribe/Battlescribe.sh
+Exec=/usr/bin/battlescribe/Battlescribe.sh
+
