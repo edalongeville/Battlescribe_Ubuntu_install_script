@@ -8,6 +8,9 @@ INSTALL_DIR="/usr/bin/battlescribe"
 ICONS_DIR="/usr/share/icons/hicolor"
 DESKFILES_DIR="/usr/share/applications"
 
+# Install Java
+sudo apt install openjdk-8-jdk openjdk-8-jre
+
 # Download Battlescribe
 wget http://battlescribe.net/files/$FILE
 
