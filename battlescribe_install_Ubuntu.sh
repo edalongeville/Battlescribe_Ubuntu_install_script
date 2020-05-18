@@ -1,7 +1,7 @@
 #!/bin/bash
-# This script installs Battlescribe on Ubuntu 18.04
+# This script installs Battlescribe on Ubuntu 20.04
 
-FILE="BattleScribe_2.03.12_Multi.zip"
+FILE="BattleScribe_2.03.20_Linux.zip"
 ICON_WEB="battlescribe_icon_128.png"
 ICON="battlescribe.png"
 DESKFILE="battlescribe.desktop"

@@ -5,6 +5,7 @@ Type=Application
 Categories=Game
 Icon=/usr/share/icons/hicolor/64x64/apps/battlescribe.png
 Terminal=false
-TryExec=/usr/bin/battlescribe/Battlescribe.sh
-Exec=/usr/bin/battlescribe/Battlescribe.sh
+TryExec=/usr/bin/battlescribe/RosterEditor.sh
+Exec=/usr/bin/battlescribe/RosterEditor.sh
+Path=/usr/bin/battlescribe
 

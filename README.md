@@ -1,7 +1,7 @@
 # Battlescribe_install_script
-This script will install Battlescribe (with icons and .desktop link) on Ubuntu 18.04
+This script will install Battlescribe (with icons and .desktop link) on Ubuntu 20.04
 
-## This is intended to be used on Ubuntu 18.04.
+## This is intended to be used on Ubuntu 20.04.
 
 # What it does
 - Deploys Battlescribe with your other apps (in /usr/bin)
