@@ -1,7 +1,8 @@
 #!/bin/bash
 # This script installs Battlescribe on Ubuntu 20.04
 
-FILE="BattleScribe_2.03.20_Linux.zip"
+LATEST=$(echo $(echo $(curl -Ss 'https://battlescribe.net/?tab=news' | grep \"desktop\") | gawk 'match ($0, /desktop": "(.+)"/, a) {print a[1]}'))
+FILE="BattleScribe_${LATEST}_Linux.zip"
 ICON_WEB="battlescribe_icon_128.png"
 ICON="battlescribe.png"
 DESKFILE="battlescribe.desktop"
@@ -10,7 +11,7 @@ ICONS_DIR="/usr/share/icons/hicolor"
 DESKFILES_DIR="/usr/share/applications"
 
 # Install Java
-sudo apt install openjdk-8-jdk openjdk-8-jre
+sudo apt install gawk openjdk-8-jdk openjdk-8-jre default-jre
 
 # Download Battlescribe
 wget http://battlescribe.net/files/$FILE
